@@ -6,6 +6,7 @@ Description: This is our index page.
 Home page
 ==========================
 
-The source for this page is in `content/index.md`.
+Jag heter Rasmus och är 19 år gammal. Jag går på bth på campus och flyttade hit från Täby, Stockholm. Går webbprogrammering.
 
-This is a sample home page written in markdown with some frontmatter defined.
+
+![image info](../portfolio/assets/img/Screenshot_4.png)
