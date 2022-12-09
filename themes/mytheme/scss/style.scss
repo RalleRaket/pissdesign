@@ -1,0 +1,29 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'blockquotes';
+@import 'code';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,600';
+
+body {
+    background-color: $background-color;
+    font-family: "Open Sans";
+    font-weight: 300;
+    .main {
+        text-align: center;
+    }
+}
+
+.footer {
+    text-align: center;
+}
+
+* {
+    color: $font-color;
+}
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
